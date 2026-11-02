@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My jQuery Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Task 1 -->
+  <header id="profile">
+    <h1 id="welcome">Welcome to My Portfolio</h1>
+    <h2 id="headline">Aldiyar - Web Developer</h2>
+    <p class="intro">I am a student</p>
+    <button id="changeHeadline">Change Headline (.text)</button>
+    <button id="changeGreeting">Change Greeting (.html)</button>
+    <button id="styleHeadline">Style Headline (.css)</button>
+    <button id="lightBtn">Light Theme</button>
+    <button id="darkBtn">Dark Theme</button>
+  </header>
+
+  <!-- Task 2 -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Zhurek Aldiyar</p>
+    <p id="status">Currently learning jQuery</p>
+    <ul id="facts">
+      <li>I love music</li>
+      <li>I want to become great man</li>
+      <li>I enjoy travelling</li>
+    </ul>
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="toggleBtn">Toggle</button>
+  </section>
+
+  <!-- Task 3-->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <img id="img1" src="photo1.jpg" alt="Photo 1">
+    <img id="img2" src="photo2.jpg" alt="Photo 2">
+    <p>
+      <button id="fadeInBtn">Fade In</button>
+      <button id="fadeOutBtn">Fade Out</button>
+      <button id="fadeToggleBtn">Fade Toggle</button>
+    </p>
+  </section>
+
+  <!-- Task 4 -->
+  <section id="favorites">
+    <h2>My Favorites</h2>
+    <h3 class="heading">My Favorite Music</h3>
+    <div class="panel"><p>lo-fi style</p></div>
+    <h3 class="heading">My Favorite Movie</h3>
+    <div class="panel"><p>Interstellar</p></div>
+    <h3 class="heading">My Favorite Subject</h3>
+    <div class="panel"><p>Web Technologies</p></div>
+    <button id="slideUpBtn">Slide Up All</button>
+    <button id="slideDownBtn">Slide Down All</button>
+  </section>
+
+  <!-- Task 5-->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul id="skillList">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+    </ul>
+    <input type="text" id="skillInput" placeholder="New skill">
+    <button id="addSkill">Add Skill</button>
+    <button id="prependSkill">Prepend Skill</button>
+    <button id="removeSkill">Remove Skill</button>
+    <p id="skillMsg"></p>
+  </section>
+
+  <!-- Task 6 -->
+  <section id="links">
+    <h2>My Link</h2>
+    <p><a id="myLink" href="https://github.com/savitarwtf-prog/Web-6.git">GitHub</a></p>
+    <button id="changeLink">Change Link to LinkedIn</button>
+  </section>
+
+  <!-- Task 7 -->
+  <section id="formSection">
+    <h2>Contact Form</h2>
+    <form>
+      <input type="text" id="nameInput" placeholder="Name">
+      <input type="text" id="emailInput" placeholder="Email">
+    </form>
+    <p>Name: <span id="outName"></span></p>
+    <p>Email: <span id="outEmail"></span></p>
+  </section>
+
+  <!-- Task 8 -->
+  <section id="bars">
+    <h2>Skill Levels</h2>
+    <p>HTML</p>
+    <div class="barBox"><div class="bar" data-level="90%"></div></div>
+    <p>CSS</p>
+    <div class="barBox"><div class="bar" data-level="75%"></div></div>
+    <p>JavaScript</p>
+    <div class="barBox"><div class="bar" data-level="60%"></div></div>
+    <button id="animateBtn">Animate My Skills</button>
+  </section>
+
+</body>
+</html>

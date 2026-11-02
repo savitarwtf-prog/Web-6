@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #ffffff;
+    color: #222222; }
+section, header {
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1px solid #cccccc; }
+button {
+    margin: 3px;
+    padding: 6px 10px;
+    cursor: pointer; }
+img {
+    margin-right: 10px; }
+
+.heading {
+    cursor: pointer;
+    background: #eeeeee;
+    padding: 8px;
+    color: #222222; }
+.panel {
+    padding: 8px;
+    border: 1px solid #cccccc; }
+.barBox {
+    width: 300px;
+    height: 20px;
+    background: #dddddd;
+    margin-bottom: 10px; }
+.bar {
+    width: 0;
+    height: 20px;
+    background: #4a90d9; }
+body.dark {
+    background: #1e1e1e;
+    color: #f0f0f0; }
+body.dark section, body.dark header {
+    border-color: #666666; }
+img {
+     width: 240px; }
